@@ -6,7 +6,9 @@ The Service Provider is based in the United Kingdom, and this Application is off
 
 ## What information does the Application obtain and how is it used?
 
-The Application does not require account registration and does not directly collect personally identifiable information such as your name or email address. The Application stores game progress data (such as level progress, settings, and preferences) locally on your device using the device's storage. This data never leaves your device and is not accessible by the Service Provider.
+The Application does not require account registration and does not directly collect personally identifiable information such as your name or email address. The Application stores game progress data (such as level progress, gold balance, booster usage, onboarding completion, and daily challenge dates) locally on your device using the device's storage.
+
+To enable cross-device continuity, the Application also syncs a small subset of this data to your personal iCloud account via Apple's iCloud Key-Value Store. This allows you to continue your progress on another device signed in with the same Apple ID. The synced data is stored in your own iCloud account under Apple's control and is not accessible by the Service Provider. You may disable iCloud sync for the Application at any time in your device's Settings under Apple ID → iCloud.
 
 ### Game Center
 
@@ -44,7 +46,7 @@ The Application does not currently use any analytics or crash reporting tools. I
 
 The Application shares information with the following third parties as described above:
 
-- Apple — for Game Center (leaderboard, player identity) and in-app purchase processing.
+- Apple — for Game Center (leaderboard, player identity), in-app purchase processing, and iCloud sync of game progress data.
 - Unity (LevelPlay mediation, which includes ironSource Exchange and Unity Ads) — for ad mediation and delivery of advertisements, which may involve sharing device and advertising identifiers with Unity's ad sources.
 
 The Service Provider may also disclose information:
@@ -79,10 +81,11 @@ You can stop all collection of information by the Application by uninstalling it
 - Disable personalised advertising at any time via **Settings → Personalized Ads** within the Application. This does not remove ads — it removes ad personalisation based on your device data.
 - Disable Game Center for the Application in your device's Settings.
 - Reset or limit your advertising identifier through your device's Settings.
+- Disable iCloud sync for the Application via your device's Settings under Apple ID → iCloud.
 
 ## What is the data retention policy and how can you manage your information?
 
-The Service Provider does not retain personally identifiable information. Data collected by third-party services (Apple Game Center, Apple StoreKit, Unity's LevelPlay and its ad sources) is subject to those providers' own data retention policies. Game progress data is stored locally on your device and is deleted when you uninstall the Application.
+The Service Provider does not retain personally identifiable information. Data collected by third-party services (Apple Game Center, Apple StoreKit, Unity's LevelPlay and its ad sources) is subject to those providers' own data retention policies. Game progress data is stored locally on your device and is deleted when you uninstall the Application. Progress data synced to iCloud remains in your personal iCloud account until you delete it via your device's Settings under Apple ID → iCloud → Manage Storage → Hex Trails, or via the in-app "Reset Progress" option which also clears the synced values.
 
 ## How does the Application address children's privacy?
 
