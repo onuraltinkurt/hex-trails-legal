@@ -24,6 +24,8 @@ The Application uses Unity's **LevelPlay** ad mediation platform (which includes
 
 Our advertising partners may derive approximate location, such as country or region, from your device's IP address for advertising and analytics, including serving regionally relevant advertisements and measuring campaign performance. This does not involve accessing precise GPS location.
 
+In addition to the data listed above, LevelPlay and its ad sources may also collect general product interaction data, other usage data, and other data as described in Unity's privacy policy, for the purposes of advertising and analytics.
+
 Two independent controls affect advertising in the Application:
 
 *   **Apple's App Tracking Transparency (ATT) prompt.** If you choose "Ask App Not to Track", our advertising partner and its ad sources are not permitted to use identifiers such as the IDFA to link your activity across other apps and websites for advertising or ad measurement purposes. You will still see ads, but they will not be personalised on the basis of cross-app or cross-site tracking.
