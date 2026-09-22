@@ -20,16 +20,16 @@ The Application offers optional in-app purchases (including gold packs and a "Re
 
 ### Advertising
 
-The Application uses Unity's **LevelPlay** ad mediation platform (which includes ironSource Exchange and Unity Ads as ad sources) to display advertisements. A "Remove Ads" in-app purchase is available to disable this feature. Through LevelPlay, Unity and its ad sources may automatically collect certain information, including your mobile advertising identifier (IDFA), device type, IP address, mobile operating system, and information about your interaction with ads, in order to serve and measure advertising.
+The Application uses Unity's **LevelPlay** ad mediation platform (which includes ironSource Exchange and Unity Ads as ad sources) to display advertisements. The "Remove Ads" purchase disables banner and interstitial advertisements. Optional rewarded video advertisements remain available. Through LevelPlay, Unity and its ad sources may automatically collect certain information, including your mobile advertising identifier (IDFA), device type, IP address, mobile operating system, and information about your interaction with ads, in order to serve and measure advertising.
 
-Our advertising partner may also derive an approximate location (typically country or region) from your device's IP address in order to serve locally relevant ads and to measure campaign performance. This is not precise geolocation, and it is used for advertising purposes only.
+Our advertising partners may derive approximate location, such as country or region, from your device's IP address for advertising and analytics, including serving regionally relevant advertisements and measuring campaign performance. This does not involve accessing precise GPS location.
 
 Two independent controls affect advertising in the Application:
 
 *   **Apple's App Tracking Transparency (ATT) prompt.** If you choose "Ask App Not to Track", our advertising partner and its ad sources are not permitted to use identifiers such as the IDFA to link your activity across other apps and websites for advertising or ad measurement purposes. You will still see ads, but they will not be personalised on the basis of cross-app or cross-site tracking.
-*   **The in-app "Personalized Ads" toggle in Settings.** This controls the consent signal we pass to our advertising partner (for example, the GDPR consent signal in the UK/EEA/Switzerland). Turning it off requests non-personalised advertising even in regions where an ATT prompt is not required.
+*   **The in-app "Personalized Ads" toggle in Settings.** This controls the consent signal we pass to our advertising partner (for example, the GDPR consent signal in the UK/EEA/Switzerland). Turning it off requests non-personalised advertising. ATT permission is separate from regional advertising consent requirements.
 
-These two controls are independent. Denying either one will cause the ads you see in the Application to be non-personalised. Both must be enabled for fully personalised advertising.
+These controls serve different purposes. The in-app setting does not change your iOS ATT permission or override a refusal of tracking permission. Turning off the in-app setting sends a refusal of consent for personalised advertising to LevelPlay. Advertisements may still be displayed when either permission is declined.
 
 In the UK, EEA, and Switzerland, a consent dialog is shown on first launch asking whether you agree to personalised advertising. You may change this choice at any time via **Settings → Personalized Ads** within the Application.
 
@@ -47,9 +47,9 @@ The Application does not use Artificial Intelligence (AI) technologies to proces
 
 ## Analytics and crash reporting
 
-The Application does not integrate any first-party analytics or crash-reporting SDK (such as Firebase Analytics, Crashlytics, Sentry, or similar). Apple's operating-system crash reports are handled by Apple according to your device's iOS diagnostics settings.
+The Application does not integrate any separate analytics or crash-reporting service (such as Firebase Analytics, Crashlytics, Sentry, or similar). Apple's operating-system crash reports are handled by Apple according to your device's iOS diagnostics settings.
 
-Our advertising partner (Unity's LevelPlay / ironSource SDK, and its ad sources) does collect operational diagnostic and performance data — for example ad load latency, error logs, and network status — in order to measure ad delivery quality, monitor SDK performance, and detect fraudulent traffic. This diagnostic data is disclosed under the "Diagnostics" category (Performance Data and Other Diagnostic Data) on our App Store privacy nutrition label. If we ever integrate a first-party analytics or crash-reporting tool in the future, this Privacy Policy will be updated accordingly before such tools are enabled.
+Our advertising partner (Unity's LevelPlay / ironSource SDK, its Ad Quality component, and its ad sources) does collect operational diagnostic and performance data — for example ad load latency, error logs, and network status — in order to measure ad delivery quality, monitor SDK performance, and detect fraudulent traffic. This diagnostic data is disclosed under the "Diagnostics" category (Performance Data and Other Diagnostic Data) on our App Store privacy nutrition label. If we ever integrate a separate analytics or crash-reporting service in the future, this Privacy Policy will be updated accordingly before such tools are enabled.
 
 ## Do third parties see and/or have access to information obtained by the Application?
 
@@ -87,14 +87,14 @@ You also have the right to lodge a complaint with the UK's data protection regul
 
 You can stop all collection of information by the Application by uninstalling it, using the standard uninstall process for your device or app marketplace. You can also:
 
-*   Disable personalised advertising at any time via **Settings → Personalized Ads** within the Application. This does not remove ads — it removes ad personalisation based on your device data.
+*   Disable personalised advertising at any time via **Settings → Personalized Ads** within the Application. This sends a refusal of consent for personalised advertising to LevelPlay; it does not remove advertisements or change your iOS ATT permission.
 *   Disable Game Center for the Application in your device's Settings.
 *   Reset or limit your advertising identifier through your device's Settings.
 *   Disable iCloud sync for the Application via your device's Settings under Apple ID → iCloud.
 
 ## What is the data retention policy and how can you manage your information?
 
-The Service Provider does not retain personally identifiable information. Data collected by third-party services (Apple Game Center, Apple StoreKit, Unity's LevelPlay and its ad sources) is subject to those providers' own data retention policies. Game progress data is stored locally on your device and is deleted when you uninstall the Application. Progress data synced to iCloud remains in your personal iCloud account until you delete it via your device's Settings under Apple ID → iCloud → Manage Storage → Hex Trails, or via the in-app "Reset Progress" option which also clears the synced values.
+The Service Provider does not retain personally identifiable information. Data collected by third-party services (Apple Game Center, Apple StoreKit, Unity's LevelPlay and its ad sources) is subject to those providers' own data retention policies. Game progress data is stored locally on your device and is deleted when you uninstall the Application. Uninstalling the Application does not necessarily remove progress already synced to iCloud. The in-app "Reset Progress" option resets game progress; it is not a request to delete all data held by Apple or advertising partners. Consult Apple’s and Unity’s privacy information for management and deletion options for data they control.
 
 ## How does the Application address children's privacy?
 
