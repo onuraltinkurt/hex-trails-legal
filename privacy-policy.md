@@ -22,9 +22,16 @@ The Application offers optional in-app purchases (including gold packs and a "Re
 
 The Application uses Unity's **LevelPlay** ad mediation platform (which includes ironSource Exchange and Unity Ads as ad sources) to display advertisements. A "Remove Ads" in-app purchase is available to disable this feature. Through LevelPlay, Unity and its ad sources may automatically collect certain information, including your mobile advertising identifier (IDFA), device type, IP address, mobile operating system, and information about your interaction with ads, in order to serve and measure advertising.
 
-Where required (including for users in the UK, EEA, and Switzerland), the Application requests your permission before using tracking technologies for personalised advertising, in line with Apple's App Tracking Transparency (ATT) framework. If you decline tracking permission, you may still see ads, but they will not be personalised to you based on cross-app or cross-site activity.
+Our advertising partner may also derive an approximate location (typically country or region) from your device's IP address in order to serve locally relevant ads and to measure campaign performance. This is not precise geolocation, and it is used for advertising purposes only.
 
-In addition, users in the UK, EEA, and Switzerland are presented with a consent dialog on first launch, asking whether they agree to personalised advertising based on their device data. You may withdraw your consent at any time by going to **Settings → Personalized Ads** within the Application and toggling it off. Your choice is applied immediately.
+Two independent controls affect advertising in the Application:
+
+*   **Apple's App Tracking Transparency (ATT) prompt.** If you choose "Ask App Not to Track", our advertising partner and its ad sources are not permitted to use identifiers such as the IDFA to link your activity across other apps and websites for advertising or ad measurement purposes. You will still see ads, but they will not be personalised on the basis of cross-app or cross-site tracking.
+*   **The in-app "Personalized Ads" toggle in Settings.** This controls the consent signal we pass to our advertising partner (for example, the GDPR consent signal in the UK/EEA/Switzerland). Turning it off requests non-personalised advertising even in regions where an ATT prompt is not required.
+
+These two controls are independent. Denying either one will cause the ads you see in the Application to be non-personalised. Both must be enabled for fully personalised advertising.
+
+In the UK, EEA, and Switzerland, a consent dialog is shown on first launch asking whether you agree to personalised advertising. You may change this choice at any time via **Settings → Personalized Ads** within the Application.
 
 Please refer to the third-party privacy policy linked below for details:
 
@@ -40,20 +47,22 @@ The Application does not use Artificial Intelligence (AI) technologies to proces
 
 ## Analytics and crash reporting
 
-The Application does not currently use any analytics or crash reporting tools. If this changes in the future, this Privacy Policy will be updated accordingly before such tools are enabled.
+The Application does not integrate any first-party analytics or crash-reporting SDK (such as Firebase Analytics, Crashlytics, Sentry, or similar). Apple's operating-system crash reports are handled by Apple according to your device's iOS diagnostics settings.
+
+Our advertising partner (Unity's LevelPlay / ironSource SDK, and its ad sources) does collect operational diagnostic and performance data — for example ad load latency, error logs, and network status — in order to measure ad delivery quality, monitor SDK performance, and detect fraudulent traffic. This diagnostic data is disclosed under the "Diagnostics" category (Performance Data and Other Diagnostic Data) on our App Store privacy nutrition label. If we ever integrate a first-party analytics or crash-reporting tool in the future, this Privacy Policy will be updated accordingly before such tools are enabled.
 
 ## Do third parties see and/or have access to information obtained by the Application?
 
 The Application shares information with the following third parties as described above:
 
-- Apple — for Game Center (leaderboard, player identity), in-app purchase processing, and iCloud sync of game progress data.
-- Unity (LevelPlay mediation, which includes ironSource Exchange and Unity Ads) — for ad mediation and delivery of advertisements, which may involve sharing device and advertising identifiers with Unity's ad sources.
+*   Apple — for Game Center (leaderboard, player identity), in-app purchase processing, and iCloud sync of game progress data.
+*   Unity (LevelPlay mediation, which includes ironSource Exchange and Unity Ads) — for ad mediation and delivery of advertisements, which may involve sharing device and advertising identifiers, and IP-derived approximate location, with Unity's ad sources.
 
 The Service Provider may also disclose information:
 
-- as required by law, such as to comply with a subpoena, court order, or similar legal process;
-- when the Service Provider believes in good faith that disclosure is necessary to protect their rights, protect your safety or the safety of others, investigate fraud, or respond to a lawful government request;
-- with trusted service providers who work on the Service Provider's behalf, do not have an independent use of the information disclosed to them, and have agreed to adhere to the rules set forth in this privacy statement.
+*   as required by law, such as to comply with a subpoena, court order, or similar legal process;
+*   when the Service Provider believes in good faith that disclosure is necessary to protect their rights, protect your safety or the safety of others, investigate fraud, or respond to a lawful government request;
+*   with trusted service providers who work on the Service Provider's behalf, do not have an independent use of the information disclosed to them, and have agreed to adhere to the rules set forth in this privacy statement.
 
 ## International data transfers
 
@@ -63,12 +72,12 @@ Some of the third parties listed above (such as Apple and Unity) may process or 
 
 If you are located in the UK (or the EEA), you have the following rights in relation to any personal data processed in connection with the Application:
 
-- the right to be informed about how your data is used;
-- the right to access any personal data held about you;
-- the right to request correction of inaccurate data;
-- the right to request erasure of your data;
-- the right to restrict or object to certain processing;
-- the right to data portability.
+*   the right to be informed about how your data is used;
+*   the right to access any personal data held about you;
+*   the right to request correction of inaccurate data;
+*   the right to request erasure of your data;
+*   the right to restrict or object to certain processing;
+*   the right to data portability.
 
 Because the Application does not collect personal data directly (only through Game Center and Unity's LevelPlay ad platform as described above), most of these requests should be directed to Apple or Unity for data they control. For anything the Service Provider does hold or can assist with, you can contact hextrailsgame@gmail.com.
 
@@ -78,10 +87,10 @@ You also have the right to lodge a complaint with the UK's data protection regul
 
 You can stop all collection of information by the Application by uninstalling it, using the standard uninstall process for your device or app marketplace. You can also:
 
-- Disable personalised advertising at any time via **Settings → Personalized Ads** within the Application. This does not remove ads — it removes ad personalisation based on your device data.
-- Disable Game Center for the Application in your device's Settings.
-- Reset or limit your advertising identifier through your device's Settings.
-- Disable iCloud sync for the Application via your device's Settings under Apple ID → iCloud.
+*   Disable personalised advertising at any time via **Settings → Personalized Ads** within the Application. This does not remove ads — it removes ad personalisation based on your device data.
+*   Disable Game Center for the Application in your device's Settings.
+*   Reset or limit your advertising identifier through your device's Settings.
+*   Disable iCloud sync for the Application via your device's Settings under Apple ID → iCloud.
 
 ## What is the data retention policy and how can you manage your information?
 
@@ -111,4 +120,4 @@ If you have any questions regarding privacy while using the Application, or abou
 
 ---
 
-This privacy policy is effective as of 2026-09-15
+**Effective Date:** 2026-09-22
