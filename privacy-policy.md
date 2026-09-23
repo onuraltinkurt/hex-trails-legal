@@ -108,7 +108,7 @@ The Service Provider takes reasonable physical, electronic, and procedural steps
 
 ## How will you be informed of changes to this Privacy Policy?
 
-This Privacy Policy may be updated from time to time. Any changes will be reflected on this page along with an updated effective date. Continued use of the Application after changes are posted constitutes acceptance of those changes.
+This Privacy Policy may be updated from time to time. Any changes will be reflected on this page along with an updated effective date. Material changes will be communicated appropriately, and fresh consent will be requested where required by applicable law. Continued use of the Application does not itself constitute consent to new data processing that requires consent.
 
 ## How do you give your consent?
 
