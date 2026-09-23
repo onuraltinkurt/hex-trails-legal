@@ -29,11 +29,11 @@ In addition to the data listed above, LevelPlay and its ad sources may also coll
 Two independent controls affect advertising in the Application:
 
 *   **Apple's App Tracking Transparency (ATT) prompt.** If you choose "Ask App Not to Track", our advertising partner and its ad sources are not permitted to use identifiers such as the IDFA to link your activity across other apps and websites for advertising or ad measurement purposes. You will still see ads, but they will not be personalised on the basis of cross-app or cross-site tracking.
-*   **The in-app "Personalized Ads" toggle in Settings.** This controls the consent signal we pass to our advertising partner (for example, the GDPR consent signal in the UK/EEA/Switzerland). Turning it off requests non-personalised advertising. ATT permission is separate from regional advertising consent requirements.
+*   **The in-app "Personalized Ads" toggle in Settings.** This controls the advertising consent signal we pass to LevelPlay, regardless of your country or region. Turning it off sends a refusal of consent for personalised advertising. Apple’s ATT permission is separate from this in-app preference.
 
 These controls serve different purposes. The in-app setting does not change your iOS ATT permission or override a refusal of tracking permission. Turning off the in-app setting sends a refusal of consent for personalised advertising to LevelPlay. Advertisements may still be displayed when either permission is declined.
 
-In the UK, EEA, and Switzerland, a consent dialog is shown on first launch asking whether you agree to personalised advertising. You may change this choice at any time via **Settings → Personalized Ads** within the Application.
+Regardless of country or region, users without a saved advertising preference are shown a consent dialog asking whether they agree to personalised advertising. You can accept or decline. Your choice is saved on your device and is not requested again on subsequent launches while that preference remains stored. You may change this choice at any time via **Settings → Personalized Ads** within the Application.
 
 Please refer to the third-party privacy policy linked below for details:
 
@@ -112,9 +112,9 @@ This Privacy Policy may be updated from time to time. Any changes will be reflec
 
 ## How do you give your consent?
 
-For users outside the UK, EEA, and Switzerland, use of the Application constitutes consent to the Service Provider's processing of information as described in this Privacy Policy, including the use of Game Center, in-app purchases, and LevelPlay advertising as described above.
+For users without a saved advertising preference, consent for personalised advertising is requested through an in-app dialog, regardless of country or region. Using the Application alone does not constitute consent to personalised advertising. You can accept or decline and change or withdraw your consent at any time via **Settings → Personalized Ads**. Existing saved advertising preferences are retained when the Application is updated.
 
-For users in the UK, EEA, or Switzerland, explicit consent for personalised advertising is requested via an on-screen dialog on first launch. Consent may be withdrawn at any time via **Settings → Personalized Ads**.
+Apple’s App Tracking Transparency permission is handled separately through iOS. Your in-app advertising preference does not grant ATT permission or override a refusal of tracking permission.
 
 ## How can you contact us?
 
@@ -122,4 +122,4 @@ If you have any questions regarding privacy while using the Application, or abou
 
 ---
 
-**Effective Date:** 2026-09-22
+**Effective Date:** 2026-09-23
