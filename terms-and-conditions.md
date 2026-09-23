@@ -1,93 +1,97 @@
 # Terms & Conditions
 
-  These terms and conditions apply to the **Hex Trails** app (hereby referred to as "Application") for mobile devices that was created by **ONUR ALTINKURT** (hereby referred to as "Service Provider") as a Freemium
-  service.
+**Effective Date: 2026-09-23**
 
-  Upon downloading or utilizing the Application, you are automatically agreeing to the following terms. It is strongly advised that you thoroughly read and understand these terms prior to using the Application.
+These Terms apply to **Hex Trails** (the “Application”), provided by **Onur Altinkurt**, based in the United Kingdom (“we”, “us”, or “our”). Hex Trails is a free-to-download game with advertising and optional in-app purchases.
 
-  ---
+Please read these Terms before using the Application. They explain how the game and its optional services work. Nothing in these Terms excludes or limits any mandatory consumer rights that apply to you.
 
-  ## Intellectual Property
+## Apple’s Standard License Agreement
 
-  Unauthorized copying, modification of the Application, any part of the Application, or our trademarks is strictly prohibited. Any attempts to extract the source code of the Application, translate the Application
-  into other languages, or create derivative versions are not permitted. All trademarks, copyrights, database rights, and other intellectual property rights related to the Application remain the property of the
-  Service Provider.
+Your license to use the iOS Application is governed by [Apple’s Standard Licensed Application End User License Agreement](https://www.apple.com/legal/internet-services/itunes/dev/stdeula/). These Terms provide additional information about Hex Trails and do not replace that agreement or reduce your rights under it. If there is a conflict concerning the application license, Apple’s Standard License Agreement applies, subject to applicable mandatory law.
 
-  ---
+## Using the Application
 
-  ## Changes to the Application
+You may use the Application for personal entertainment in accordance with the applicable license and law. Do not exploit bugs, manipulate purchases or leaderboard submissions, or interfere with the operation of the Application or its services.
 
-  The Service Provider is dedicated to ensuring that the Application is as beneficial and efficient as possible. As such, they reserve the right to modify the Application or charge for their services at any time
-  and for any reason. The Service Provider assures you that any charges for the Application or its services will be clearly communicated to you.
+The Application and its original content are protected by intellectual property laws. Rights belong to us or the relevant licensors. Restrictions on copying, modification, and reverse engineering are subject to Apple’s Standard License Agreement and any exceptions permitted by applicable law. Third-party trademarks and materials remain the property of their respective owners.
 
-  ---
+## In-App Purchases and Virtual Items
 
-  ## Data & Device Security
+Hex Trails offers optional gold packs and a **Remove Ads** purchase. The available products and their prices are displayed in the game and in Apple’s purchase confirmation screen. Purchases are processed through Apple’s App Store and are subject to Apple’s applicable purchase terms. We do not receive your payment card details.
 
-  The Application stores game progress data locally on your device. The Application does not transmit personal data to the Service Provider. It is your responsibility to maintain the security of your phone and
-  access to the Application. The Service Provider strongly advises against jailbreaking or rooting your phone, which involves removing software restrictions and limitations imposed by the official operating system
-  of your device. Such actions could expose your phone to malware, viruses, malicious programs, compromise your phone's security features, and may result in the Application not functioning correctly or at all.
+Gold packs are consumable purchases. Gold and boosters are virtual items for use within Hex Trails; they are not money, cannot be redeemed for cash, and are not offered for sale or transfer between players. Your statutory rights relating to purchased digital content remain unaffected.
 
-  ---
+**Remove Ads** is a one-time, non-consumable purchase that disables banner and interstitial advertisements in the Application. Optional rewarded advertisements remain available if you choose to watch them to receive an in-game reward. Remove Ads does not remove these optional rewarded opportunities.
 
-  ## Third-Party Services
+### Restoring Purchases
 
-  Please note that the Application utilizes third-party services that have their own Terms and Conditions. Below are the links to the Terms and Conditions of the third-party service providers used by the
-  Application:
+You can use **Settings → Restore Purchases** to restore an eligible Remove Ads purchase using the Apple account associated with that purchase. Consumable gold packs are not restored through Restore Purchases. Synchronisation of your current gold balance through iCloud is separate from restoring an App Store purchase.
 
-  - [AdMob](https://policies.google.com/terms)
-  - [Unity](https://unity.com/legal/terms-of-service)
+### Purchase Problems and Refunds
 
-  ---
+If a purchased item is not delivered or a purchase does not work as expected, contact us at **hextrailsgame@gmail.com**. You can also request a refund through [Apple’s Report a Problem service](https://reportaproblem.apple.com/). Refund eligibility and processing are subject to Apple’s policies and applicable law. This does not exclude any rights or remedies you may have against us under applicable consumer law.
 
-  ## Internet Connection
+## Advertising and Your Choices
 
-  Please be aware that the Service Provider does not assume responsibility for certain aspects. Some functions of the Application require an active internet connection, which can be Wi-Fi or provided by your mobile
-   network provider. The Service Provider cannot be held responsible if the Application does not function at full capacity due to lack of access to Wi-Fi or if you have exhausted your data allowance.
+The Application uses Unity LevelPlay, including ironSource Exchange and Unity Ads as advertising sources. Advertisements and rewarded opportunities depend on availability and may not always be available.
 
-  If you are using the application outside of a Wi-Fi area, please be aware that your mobile network provider's agreement terms still apply. Consequently, you may incur charges from your mobile provider for data
-  usage during the connection to the application, or other third-party charges. By using the application, you accept responsibility for any such charges, including roaming data charges if you use the application
-  outside of your home territory (i.e., region or country) without disabling data roaming. If you are not the bill payer for the device on which you are using the application, it is assumed that you have obtained
-  permission from the bill payer.
+Users without a saved advertising preference are asked whether they agree to personalised advertising, regardless of their country or region. You can accept or decline and change your preference at any time in **Settings → Personalized Ads**. Existing saved preferences are retained when the Application is updated. Declining personalised advertising does not itself remove advertisements.
 
-  ---
+Apple’s App Tracking Transparency permission is separate from this in-app preference. Accepting these Terms or using the Application does not grant advertising consent or ATT permission, and the in-app preference does not override a refusal of ATT permission.
 
-  ## Device Responsibility
+See our [Privacy Policy](https://onuraltinkurt.github.io/hex-trails-legal/privacy-policy) for information about data processing and advertising choices.
 
-  The Service Provider cannot always assume responsibility for your usage of the application. For instance, it is your responsibility to ensure that your device remains charged. If your device runs out of battery
-  and you are unable to access the Service, the Service Provider cannot be held responsible.
+## Game Progress, iCloud, and Game Center
 
-  ---
+Game progress is stored locally on your device. The Application also supports synchronisation of selected progress data, including level progress and gold balance, through Apple’s iCloud Key-Value Store on supported devices signed in to the same iCloud account.
 
-  ## Liability
+iCloud synchronisation depends on your account, device settings, network connection, and Apple’s services. Updates may not appear immediately. Your iCloud account and the Apple account used for App Store purchases serve different purposes; synchronising progress does not transfer ownership of an in-app purchase between Apple accounts.
 
-  In terms of the Service Provider's responsibility for your use of the application, it is important to note that while they strive to ensure that it is updated and accurate at all times, they do rely on third
-  parties to provide information to them so that they can make it available to you. The Service Provider accepts no liability for any loss, direct or indirect, that you experience as a result of relying entirely on
-   this functionality of the application.
+Game Center provides leaderboard features using your Game Center profile. Core gameplay does not require you to create a separate Hex Trails account. Online leaderboard functionality depends on Game Center availability and sign-in.
 
-  ---
+Deleting local application data, uninstalling the Application, changing accounts, or using Reset Progress may affect your saved progress. Uninstalling the Application does not necessarily delete data already stored in iCloud. Reset Progress is not a request to delete all records held by Apple or advertising providers. Contact us if you experience a progress or purchase problem; your applicable consumer rights remain unaffected.
 
-  ## Updates & Termination
+## Internet Connection and Device Requirements
 
-  The Service Provider may wish to update the application at some point. The application is currently available as per the requirements for the operating system and you will need to download updates if you want to
-  continue using the application. The Service Provider does not guarantee that it will always update the application so that it is relevant to you and/or compatible with the particular operating system version
-  installed on your device. However, you agree to always accept updates to the application when offered to you. The Service Provider may also wish to cease providing the application and may terminate its use at any
-   time without providing termination notice to you. Unless they inform you otherwise, upon any termination, (a) the rights and licenses granted to you in these terms will end; (b) you must cease using the
-  application, and (if necessary) delete it from your device.
+Levels can be played offline. Features such as in-app purchases, restoring purchases, online leaderboards, advertisements, and iCloud synchronisation require internet access. Availability may also depend on third-party services.
 
-  ---
+You are responsible for any mobile data or roaming charges under your agreement with your network provider. You should keep your device secure and use a supported operating system. Modified or jailbroken devices may experience compatibility or security problems.
 
-  ## Changes to These Terms and Conditions
+## Third-Party Services
 
-  The Service Provider may periodically update their Terms and Conditions. Therefore, you are advised to review this page regularly for any changes. The Service Provider will notify you of any changes by posting
-  the new Terms and Conditions on this page.
+Hex Trails uses Apple services for App Store purchases, Game Center, and iCloud, and Unity services for advertising. These services are subject to their providers’ applicable terms and privacy policies, including:
 
-  ---
+- [Apple Media Services Terms and Conditions](https://www.apple.com/legal/internet-services/itunes/)
+- [Apple iCloud Terms and Conditions](https://www.apple.com/legal/internet-services/icloud/)
+- [Unity Terms of Service](https://unity.com/legal/terms-of-service)
+- [Hex Trails Privacy Policy](https://onuraltinkurt.github.io/hex-trails-legal/privacy-policy)
 
-  ## Contact Us
+The use of third-party services does not remove any responsibility we have to you under applicable law.
 
-  If you have any questions or suggestions about the Terms and Conditions, please do not hesitate to contact the Service Provider at hextrailsgame@gmail.com.
+## Updates, Changes, and Service Availability
 
-  ---
+We may provide updates to fix issues, improve security or gameplay, comply with legal requirements, or maintain compatibility with Apple and advertising services. Some online features may require an updated version of the Application.
 
-  *These terms and conditions are effective as of 2026-04-20*
+We may change or discontinue features for reasonable operational, technical, security, or legal reasons. Where a change materially affects access to purchased content or an ongoing service, we will provide reasonable advance notice where practicable and respect any applicable rights to remedies or refunds. We will not use these Terms to impose an additional charge for an existing purchase without your agreement.
+
+We do not guarantee uninterrupted access to online services. If we need to discontinue the Application or restrict access because of a material breach of these Terms, we will act reasonably and provide notice where practicable, except where immediate action is necessary for security or legal reasons. Any action affecting purchased content remains subject to applicable consumer rights.
+
+## Responsibility and Consumer Rights
+
+We will provide the Application with the care and skill required by applicable law. You retain any mandatory rights relating to digital content, including rights where purchased content is faulty, not as described, or otherwise fails to meet applicable legal requirements.
+
+Nothing in these Terms excludes or limits liability for fraud, fraudulent misrepresentation, death or personal injury caused by negligence, or any other liability that cannot lawfully be excluded or limited.
+
+Hex Trails is supplied for personal use. To the extent permitted by applicable law, we are not responsible for business losses arising from commercial use of the Application. We do not exclude liability for losses for which we are responsible under applicable law merely because a third-party service is involved.
+
+## Changes to These Terms
+
+We may update these Terms to reflect changes to the Application, its services, or legal requirements. We will publish the revised Terms on this page and update the effective date. For material changes affecting your rights or purchases, we will provide appropriate notice and obtain agreement where required by law. Changes will not remove rights you already have in relation to purchases or events before the change.
+
+## Contact
+
+For questions about these Terms, game progress, or purchases, contact:
+
+**Onur Altinkurt**
+**Email:** hextrailsgame@gmail.com
